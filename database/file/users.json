@@ -1,0 +1,58 @@
+{
+    "users": [
+        {
+            "id": "admin",
+            "password": "admin",
+            "permission": [
+                "read",
+                "write"
+            ],
+            "admin": true,
+            "company": {
+                "company_code": "80000",
+                "start_date": "2022-03-01",
+                "expire_date": "2022-04-01",
+                "limit_user": 5,
+                "now_user": 1
+            },
+            "register_date": "2022-05-04",
+            "visit_date": "2022-05-16"
+        },
+        {
+            "id": "test1",
+            "password": "test1",
+            "permission": [
+                "read",
+                "write"
+            ],
+            "admin": false,
+            "company": {
+                "company_code": "80000",
+                "start_date": "2022-03-01",
+                "expire_date": "2022-01-01",
+                "limit_user": 5,
+                "now_user": 1
+            },
+            "register_date": "2022-05-06",
+            "visit_date": "2022-05-16"
+        },
+        {
+            "id": "test",
+            "password": "test",
+            "permission": [
+                "read",
+                "write"
+            ],
+            "admin": true,
+            "company": {
+                "company_code": "70000",
+                "start_date": "2022-04-01",
+                "expire_date": "2022-07-01",
+                "limit_user": 5,
+                "now_user": 2
+            },
+            "register_date": "2022-05-16",
+            "visit_date": "2022-05-16"
+        }
+    ]
+}

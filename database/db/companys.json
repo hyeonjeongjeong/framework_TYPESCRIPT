@@ -1,0 +1,25 @@
+{
+    "companys": [
+        {
+            "company_code": "70000",
+            "start_date": "2022-04-01",
+            "expire_date": "2022-07-01",
+            "limit_user": 5,
+            "now_user": 2
+        },
+        {
+            "company_code": "80000",
+            "start_date": "2022-03-01",
+            "expire_date": "2022-06-01",
+            "limit_user": 5,
+            "now_user": 3
+        },
+        {
+            "company_code": "90000",
+            "start_date": "2022-03-01",
+            "expire_date": "2022-04-01",
+            "limit_user": 5,
+            "now_user": 0
+        }
+    ]
+}
